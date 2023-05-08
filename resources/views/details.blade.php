@@ -73,7 +73,7 @@
      <div style="flex: 1;">
          <?php foreach($data as $liste) { ?>
              <div>
-                 <img src="<?php echo $liste->image ?>" style="width: 180px; height: 230px; border-radius: 10px;">
+                 <img src="<?php echo $liste->image ?>" style="width: 550px; height: 650px; border-radius: 10px;">
              </div>
          <?php } ?>
      </div>
