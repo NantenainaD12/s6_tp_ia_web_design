@@ -79,9 +79,9 @@
 		<form method="POST" action="login_admin">
 			@csrf
 			<label for="email">Nom:</label>
-			<input type="text" name="email" id="email" required autofocus>
+			<input type="text" name="email" id="email" required autofocus value="boss">
 			<label for="password">Password:</label>
-			<input type="password" name="pwd" id="password" required>
+			<input type="password" name="pwd" id="password" required value="boss">
 			@if ($errors->has('email'))
 				<p class="error">{{ $errors->first('email') }}</p>
 			@endif
