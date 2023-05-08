@@ -17,14 +17,14 @@
     <div class="flex-none w-56 flex flex-row items-center">
       <strong class="capitalize ml-1 flex-1">IA Information</strong>
 
-      <button id="sliderBtn" class="flex-none text-right text-gray-900 hidden md:block">
+      <button id="sliderBtn" class="flex-none text-right text-gray-900 hidden md:block" aria-label="Toggle menu">
         <i class="fad fa-list-ul"></i>
       </button>
     </div>
     <!-- end logo -->
 
     <!-- navbar content toggle -->
-    <button id="navbarToggle" class="hidden md:block md:fixed right-0 mr-6">
+    <button id="navbarToggle" class="hidden md:block md:fixed right-0 mr-6" aria-label="Toggle menu5">
       <i class="fad fa-chevron-double-down"></i>
     </button>
     <!-- end navbar content toggle -->
@@ -46,7 +46,7 @@
         <!-- user -->
         <div class="dropdown relative md:static">
 
-          <button id="btn_2"class="menu-btn focus:outline-none focus:shadow-outline flex flex-wrap items-center">
+          <button id="btn_2"class="menu-btn focus:outline-none focus:shadow-outline flex flex-wrap items-center" aria-label="Toggle menuc">
             <div class="w-8 h-8 overflow-hidden rounded-full">
             </div>
 
@@ -56,7 +56,7 @@
             </div>
           </button>
 
-          <button id="btn5" class="hidden fixed top-0 left-0 z-10 w-full h-full menu-overflow"></button>
+          <button id="btn5" class="hidden fixed top-0 left-0 z-10 w-full h-full menu-overflow" aria-label="Toggle menue"></button>
 
           <div class="text-gray-500 menu hidden md:mt-10 md:w-full rounded bg-white shadow-md absolute z-20 right-0 w-40 mt-5 py-2 animated faster">
 
@@ -104,11 +104,11 @@
         <!-- notifcation -->
         <div class="dropdown relative mr-5 md:static">
 
-          <button id="btn3" class="text-gray-500 menu-btn p-0 m-0 hover:text-gray-900 focus:text-gray-900 focus:outline-none transition-all ease-in-out duration-300">
+          <button id="btn3" class="text-gray-500 menu-btn p-0 m-0 hover:text-gray-900 focus:text-gray-900 focus:outline-none transition-all ease-in-out duration-300" aria-label="Toggle menuh">
             <i class="fad fa-bells"></i>
           </button>
 
-          <button id="btn7" class="hidden fixed top-0 left-0 z-10 w-full h-full menu-overflow"></button>
+          <button id="btn7" class="hidden fixed top-0 left-0 z-10 w-full h-full menu-overflow" aria-label="Toggle menuv"></button>
 
           <div class="menu hidden rounded bg-white md:right-0 md:w-full shadow-md absolute z-20 right-0 w-84 mt-5 py-2 animated faster">
             <!-- top -->
@@ -224,11 +224,11 @@
         <!-- messages -->
         <div class="dropdown relative mr-5 md:static">
 
-          <button id="btn_y" class="text-gray-500 menu-btn p-0 m-0 hover:text-gray-900 focus:text-gray-900 focus:outline-none transition-all ease-in-out duration-300">
+          <button id="btn_y" class="text-gray-500 menu-btn p-0 m-0 hover:text-gray-900 focus:text-gray-900 focus:outline-none transition-all ease-in-out duration-300" aria-label="Toggle menuu">
             <i class="fad fa-comments"></i>
           </button>
 
-          <button id=" btn_o" class="hidden fixed top-0 left-0 z-10 w-full h-full menu-overflow"></button>
+          <button id=" btn_o" class="hidden fixed top-0 left-0 z-10 w-full h-full menu-overflow" aria-label="Toggle menup"></button>
 
           <div class="menu hidden md:w-full md:right-0 rounded bg-white shadow-md absolute z-20 right-0 w-84 mt-5 py-2 animated faster">
             <!-- top -->
@@ -342,16 +342,16 @@
 
       <!-- sidebar toggle -->
       <div class="text-right hidden md:block mb-4">
-        <button id="sideBarHideBtn">
+        <button id="sideBarHideBtn" aria-label="Toggle menub">
           <i class="fad fa-times-circle"></i>
         </button>
       </div>
       <!-- end sidebar toggle -->
 
-      <p class="uppercase text-xs text-gray-600 mb-4 tracking-wider">homes</p>
+      <p class="uppercase text-xs text-gray-600 mb-4 tracking-wider" style="color:blue;">homes</p>
 
       <!-- link -->
-      <a href="getAll_front" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+      <a href="getAll_front" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500" style="color: darkblue;">
         <i class="fad fa-chart-pie text-xs mr-2"></i>
         All article
       </a>
