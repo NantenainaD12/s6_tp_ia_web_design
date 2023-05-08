@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="Un site d 'IA">
   <link rel="shortcut icon" href="./img/fav.png" type="image/x-icon">
   <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.12.1/css/pro.min.css">
   <link rel="stylesheet" type="text/css" href="template/css/style.css">
@@ -47,7 +48,7 @@
         <!-- user -->
         <div class="dropdown relative md:static">
 
-          <button class="menu-btn focus:outline-none focus:shadow-outline flex flex-wrap items-center">
+          <button id="btn_2"class="menu-btn focus:outline-none focus:shadow-outline flex flex-wrap items-center">
             <div class="w-8 h-8 overflow-hidden rounded-full">
             </div>
 
@@ -57,7 +58,7 @@
             </div>
           </button>
 
-          <button class="hidden fixed top-0 left-0 z-10 w-full h-full menu-overflow"></button>
+          <button id="btn5" class="hidden fixed top-0 left-0 z-10 w-full h-full menu-overflow"></button>
 
           <div class="text-gray-500 menu hidden md:mt-10 md:w-full rounded bg-white shadow-md absolute z-20 right-0 w-40 mt-5 py-2 animated faster">
 
@@ -105,11 +106,11 @@
         <!-- notifcation -->
         <div class="dropdown relative mr-5 md:static">
 
-          <button class="text-gray-500 menu-btn p-0 m-0 hover:text-gray-900 focus:text-gray-900 focus:outline-none transition-all ease-in-out duration-300">
+          <button id="btn3" class="text-gray-500 menu-btn p-0 m-0 hover:text-gray-900 focus:text-gray-900 focus:outline-none transition-all ease-in-out duration-300">
             <i class="fad fa-bells"></i>
           </button>
 
-          <button class="hidden fixed top-0 left-0 z-10 w-full h-full menu-overflow"></button>
+          <button id="btn7" class="hidden fixed top-0 left-0 z-10 w-full h-full menu-overflow"></button>
 
           <div class="menu hidden rounded bg-white md:right-0 md:w-full shadow-md absolute z-20 right-0 w-84 mt-5 py-2 animated faster">
             <!-- top -->
@@ -225,11 +226,11 @@
         <!-- messages -->
         <div class="dropdown relative mr-5 md:static">
 
-          <button class="text-gray-500 menu-btn p-0 m-0 hover:text-gray-900 focus:text-gray-900 focus:outline-none transition-all ease-in-out duration-300">
+          <button id="btn_y" class="text-gray-500 menu-btn p-0 m-0 hover:text-gray-900 focus:text-gray-900 focus:outline-none transition-all ease-in-out duration-300">
             <i class="fad fa-comments"></i>
           </button>
 
-          <button class="hidden fixed top-0 left-0 z-10 w-full h-full menu-overflow"></button>
+          <button id=" btn_o" class="hidden fixed top-0 left-0 z-10 w-full h-full menu-overflow"></button>
 
           <div class="menu hidden md:w-full md:right-0 rounded bg-white shadow-md absolute z-20 right-0 w-84 mt-5 py-2 animated faster">
             <!-- top -->
