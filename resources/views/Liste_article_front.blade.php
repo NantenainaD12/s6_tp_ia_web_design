@@ -133,9 +133,9 @@
               </div>
 
               <div class="flex-1 flex flex-rowbg-green-100">
+                  <p class="text-xs text-gray-500">text here also</p>
                 <div class="flex-1">
                   <h1 class="text-sm font-semibold">poll..</h1>
-                  <p class="text-xs text-gray-500">text here also</p>
                 </div>
                 <div class="text-right text-xs text-gray-500">
                   <p>4 min ago</p>
@@ -419,7 +419,6 @@
 <!-- end wrapper -->
 
 <!-- script -->
-<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 <script src="template/js/scripts.js"></script>
 <!-- end script -->
 

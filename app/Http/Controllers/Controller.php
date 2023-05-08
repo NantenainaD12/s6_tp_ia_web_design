@@ -6,6 +6,8 @@ use App\Models\Admin;
 use App\Models\Categorie;
 use App\Models\Client;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
+
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
@@ -42,7 +44,13 @@ class Controller extends BaseController
            }
               public function getAll_front()
                 {
-                               return view('Liste_article_front',['data'=> Article::all()]);
+                $list=Cache::remember('data',300,function(){
+                return Article::all();
+                });
+                $response = response()->view('Liste_article_front',['data'=> $list]);
+                $response->header('Cache-Control','max-age=3600,public');
+                return $response;
+                              // return view('Liste_article_front',['data'=> Article::all()]);
                                //return 'zay ehh ' .$date. ' id_pro ='.$id_pro.' frais '.$frais;
                }
 
@@ -90,8 +98,13 @@ class Controller extends BaseController
                                          return view('Login_Client');
                                    }
                                    else{
-
-                                           return view('Liste_article_front',['data'=> Article::all()]);
+                                                $list=Cache::remember('data',300,function(){
+                                                           return Article::all();
+                                                           });
+                                                           $response = response()->view('Liste_article_front',['data'=> $list]);
+                                                           $response->header('Cache-Control','max-age=3600,public');
+                                                           return $response;
+                                         //  return view('Liste_article_front',['data'=> Article::all()]);
                                    }
                                   }
 

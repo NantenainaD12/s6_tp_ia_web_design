@@ -14,7 +14,7 @@ use App\Http\Controllers\Controller;
 |
 */
 
-Route::get('/front',[Controller::class,'login_front_page']);
+Route::get('/front',[Controller::class,'getAll_front']);
 Route::get('/',[Controller::class,'login_admin_page']);
 Route::get('/getAll',[Controller::class,'getAll_admin']);
 Route::get('/getAll_front',[Controller::class,'getAll_front']);
