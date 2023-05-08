@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title><?php echo $data[0] ->titre ?></title>
     <style>

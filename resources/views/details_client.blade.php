@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title><?php echo $data[0] ->titre ?></title>
     <style>
@@ -58,6 +58,8 @@
     }
 
     </style>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
+    <meta name="description" content="Un site d"IA a propos du {{$data[0]->resume}}">
 </head>
 <body>
 	<header>
@@ -72,7 +74,7 @@
          <div style="flex: 1;">
              <?php foreach($data as $liste) { ?>
                  <div>
-                     <img src="<?php echo $liste->image ?>" style="width: 180px; height: 230px; border-radius: 10px;">
+                     <img src="<?php echo $liste->image ?>" style="width: 180px; height: 230px; border-radius: 10px;" alt="<?php echo $liste->image ?>">
                  </div>
              <?php } ?>
          </div>

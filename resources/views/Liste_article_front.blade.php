@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,7 +16,6 @@
 
     <!-- logo -->
     <div class="flex-none w-56 flex flex-row items-center">
-      <img src="img/logo.png" class="w-10 flex-none">
       <strong class="capitalize ml-1 flex-1">IA Information</strong>
 
       <button id="sliderBtn" class="flex-none text-right text-gray-900 hidden md:block">
@@ -50,7 +49,6 @@
 
           <button class="menu-btn focus:outline-none focus:shadow-outline flex flex-wrap items-center">
             <div class="w-8 h-8 overflow-hidden rounded-full">
-              <img class="w-full h-full object-cover" src="img/user.svg" >
             </div>
 
             <div class="ml-2 capitalize flex ">
@@ -250,7 +248,7 @@
             <a class="flex flex-row items-center justify-start px-4 py-4 block capitalize font-medium text-sm tracking-wide bg-white hover:bg-gray-200 transition-all duration-300 ease-in-out" href="#">
 
               <div class="w-10 h-10 rounded-full overflow-hidden mr-3 bg-gray-100 border border-gray-300">
-                <img class="w-full h-full object-cover" src="img/user1.jpg" alt="">
+
               </div>
 
               <div class="flex-1 flex flex-rowbg-green-100">
@@ -271,7 +269,7 @@
             <a class="flex flex-row items-center justify-start px-4 py-4 block capitalize font-medium text-sm tracking-wide bg-white hover:bg-gray-200 transition-all duration-300 ease-in-out" href="#">
 
               <div class="w-10 h-10 rounded-full overflow-hidden mr-3 bg-gray-100 border border-gray-300">
-                <img class="w-full h-full object-cover" src="img/user2.jpg" alt="">
+
               </div>
 
               <div class="flex-1 flex flex-rowbg-green-100">
@@ -292,7 +290,7 @@
             <a class="flex flex-row items-center justify-start px-4 py-4 block capitalize font-medium text-sm tracking-wide bg-white hover:bg-gray-200 transition-all duration-300 ease-in-out" href="#">
 
               <div class="w-10 h-10 rounded-full overflow-hidden mr-3 bg-gray-100 border border-gray-300">
-                <img class="w-full h-full object-cover" src="img/user3.jpg" alt="">
+
               </div>
 
               <div class="flex-1 flex flex-rowbg-green-100">
@@ -383,7 +381,7 @@
 
                 <!-- top -->
                 <div class="flex flex-row justify-between items-center">
-                     <div class=""><a href="details/client<?php echo $liste->titre ?>-id_article-<?php echo $liste->id_article ?>"><img style="width: 50; height: 50; border-radius: 50;" src="<?php echo $liste->image?>" width="100" height="50"></a></div>
+                     <div class=""><a href="details/client<?php echo $liste->titre ?>-id_article-<?php echo $liste->id_article ?>"><img alt="<?php echo $liste->titre ?>" style="width: 50; height: 50; border-radius: 50;" src="<?php echo $liste->image?>" width="100" height="50"></a></div>
                     <span class="rounded-full text-white badge bg-teal-400 text-xs">
                       <?php echo $liste->categorie ?>
                         <i class="fal fa-chevron-up ml-1"></i>
