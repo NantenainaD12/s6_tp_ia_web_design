@@ -416,7 +416,7 @@
 <!-- end wrapper -->
 
 <!-- script -->
-<script src="template/js/scripts.js" defer></script>
+<script src="template/js/scripts.js" async></script>
 <!-- end script -->
 
 </body>
