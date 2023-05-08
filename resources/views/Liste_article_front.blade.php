@@ -4,8 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Un site d 'IA">
-  <link rel="stylesheet" type="text/css" href="template/css/style.css">
-  <script src="template/js/scripts.js"></script>
+  <link rel="stylesheet" type="text/css" href="template/css/style.css" >
   <title>IA Information </title>
 </head>
 <body class="bg-gray-100">
@@ -417,7 +416,7 @@
 <!-- end wrapper -->
 
 <!-- script -->
-
+<script src="template/js/scripts.js" defer></script>
 <!-- end script -->
 
 </body>
