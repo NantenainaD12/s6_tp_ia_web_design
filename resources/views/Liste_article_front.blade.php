@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Un site d 'IA">
   <link rel="stylesheet" type="text/css" href="template/css/style.css">
+  <script src="template/js/scripts.js"></script>
   <title>IA Information </title>
 </head>
 <body class="bg-gray-100">
@@ -381,9 +382,8 @@
                 <!-- top -->
                 <div class="flex flex-row justify-between items-center">
                      <div class=""><a href="details/client<?php echo $liste->titre ?>-id_article-<?php echo $liste->id_article ?>"><img alt="<?php echo $liste->titre ?>" style="width: 50; height: 50; border-radius: 50;" src="<?php echo $liste->image?>" width="100" height="50"></a></div>
-                    <span class="rounded-full text-white badge bg-teal-400 text-xs">
+                    <span class="rounded-full text-white badge bg-teal-400 text-xs" style="color: green;">
                       <?php echo $liste->categorie ?>
-                        <i class="fal fa-chevron-up ml-1"></i>
                     </span>
                 </div>
                 <!-- end top -->
@@ -417,7 +417,7 @@
 <!-- end wrapper -->
 
 <!-- script -->
-<script src="template/js/scripts.js"></script>
+
 <!-- end script -->
 
 </body>
